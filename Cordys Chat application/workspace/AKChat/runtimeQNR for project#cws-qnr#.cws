@@ -1,0 +1,20 @@
+
+<QualifiedNameRoot
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	RuntimeDocumentID="C81F6624-087B-11E6-F44D-62DC059EF7D3">
+	<DocumentID>C81F6624-087B-11E6-F44D-62DC059ED7D3</DocumentID>
+	<Name>runtimeQNR for project</Name>
+	<Description/>
+	<CreatedBy>Arun Kumar</CreatedBy>
+	<CreationDate>2016-11-04T08:45:58.593</CreationDate>
+	<Notes/>
+	<DesigntimeQNRFolder/>
+	<RuntimeQNRFolder>
+		<uri
+			id="C81F6624-087B-11E6-F44D-62DC059B37D3"
+			path="AKChat"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</RuntimeQNRFolder>
+</QualifiedNameRoot>

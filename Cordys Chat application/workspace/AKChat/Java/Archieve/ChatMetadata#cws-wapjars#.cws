@@ -1,0 +1,40 @@
+
+<WSAppServerJavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="C81F6624-087B-11E6-F44E-75BC7BDFB7D3">
+	<DocumentID>C81F6624-087B-11E6-F44E-75BC7BDF97D3</DocumentID>
+	<Name>ChatMetadata</Name>
+	<Description>ChatMetadata</Description>
+	<CreatedBy>Arun Kumar</CreatedBy>
+	<CreationDate>2016-11-04T09:47:29.441</CreationDate>
+	<Notes/>
+	<JarFileName>ChatMetadata</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="C81F6624-087B-11E6-F44E-75BC7BDFF7D3">
+			<DocumentID>C81F6624-087B-11E6-F44E-75BC7BDFD7D3</DocumentID>
+			<Name>ChatMetadata_Dependency</Name>
+			<Description/>
+			<CreatedBy>Arun Kumar</CreatedBy>
+			<CreationDate>2016-11-04T09:47:29.438</CreationDate>
+			<Notes/>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+			<ISVPName></ISVPName>
+		</JavaArchiveReferenceDependency>
+	</Dependencies>
+	<SourceFolder>
+		<uri
+			id="C81F6624-087B-11E6-F44D-4F06FAC4F7D3"
+			path="AKChat/Java/Java source"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="C81F6624-087B-11E6-F44E-75BC7BD457D3"
+		/>
+	</WSAppServerPackage>
+</WSAppServerJavaArchiveSource>

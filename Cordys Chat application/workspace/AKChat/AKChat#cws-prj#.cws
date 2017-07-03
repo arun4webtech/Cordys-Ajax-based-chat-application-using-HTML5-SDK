@@ -1,0 +1,101 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="C81F6624-087B-11E6-F44D-62DC059A17D3">
+	<DocumentID>C81F6624-087B-11E6-F44D-62DC0599F7D3</DocumentID>
+	<Name>AKChat</Name>
+	<Description>AKChat</Description>
+	<CreatedBy>Arun Kumar</CreatedBy>
+	<CreationDate>2016-11-04T08:45:58.596</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="C81F6624-087B-11E6-F44D-62DC059B97D3">
+			<DocumentID>C81F6624-087B-11E6-F44D-62DC059B77D3</DocumentID>
+			<Name>Nibana AKChat</Name>
+			<Description>Nibana AKChat</Description>
+			<CreatedBy>Arun Kumar</CreatedBy>
+			<CreationDate>2016-11-04T08:45:58.593</CreationDate>
+			<Notes/>
+			<BuildNumber>0</BuildNumber>
+			<ISVPackageFileName>Nibana AKChat 1.0.0</ISVPackageFileName>
+			<ISVPackageOwner>Nibana</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>AKChat</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>1.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="C81F6624-087B-11E6-F44D-62DC059B37D3"
+			path="AKChat"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="C81F6624-087B-11E6-F44D-62DC059A57D3">
+			<DocumentID>C81F6624-087B-11E6-F44D-62DC059A37D3</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description/>
+			<CreatedBy>Arun Kumar</CreatedBy>
+			<CreationDate>2016-11-04T08:45:58.592</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="C81F6624-087B-11E6-F44D-62DC059AD7D3">
+					<DocumentID>C81F6624-087B-11E6-F44D-62DC059AB7D3</DocumentID>
+					<Name>en-US</Name>
+					<Description/>
+					<CreatedBy>Arun Kumar</CreatedBy>
+					<CreationDate>2016-11-04T08:45:58.596</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="C81F6624-087B-11E6-F44D-62DC059AF7D3"
+							path="AKChat/en-US_C81F6624-087B-11E6-F44D-62DC059AF7D3"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="C81F6624-087B-11E6-F44D-62DC059A37D3"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="C81F6624-087B-11E6-F44D-62DC059AB7D3"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="C81F6624-087B-11E6-F44D-62DC059A77D3"
+					path="AKChat/TranslationInformation_C81F6624-087B-11E6-F44D-62DC059A77D3"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

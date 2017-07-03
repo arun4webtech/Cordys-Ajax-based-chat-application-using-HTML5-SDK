@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Issue Tracking System</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../wcp/style/default.css" type="text/css" />
+		<link rel="stylesheet" href="assets\css\bootstrap.min.css">
+		<script src="/cordys/thirdparty/jquery/jquery.js" type="text/javascript"></script>
+		<script src="/cordys/html5/cordys.html5sdk.js" type="text/javascript"></script>
+		<script src="/cordys/thirdparty/sha1/sha1.js" type="text/javascript"></script>	
+
+		<script type="text/javascript">
+				
+			
+			$(function() {
+			var a = document.cookie;
+				  if(a!="")
+				  {
+					window.location = "default.htm";
+				  }
+
+				$("#btnLogin").bind("click", login);
+				$("#inputName").focus();
+			});
+
+			function login() {
+				$.cordys.authentication.sso.authenticate($("#inputName").val(), $("#inputPassword").val()).done(function(){
+				  var a = document.cookie;
+				  if(a!=null)
+				  {
+					  var urlData = location.href.substr(location.href.indexOf("?")+1,location.href.length);
+					  var page = urlData.split("#refScrren#")[1];
+						if(page != undefined)
+						{
+							window.location = page;
+						}
+						else
+						{
+							window.location = "default.htm";
+						}
+				  }
+					else
+					{
+					window.location = "clogin.htm";
+					}
+				});
+			}
+		</script>
+	</head>
+<body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0">
+	<div class="col-sm-6 col-md-4 col-md-offset-4 " id="loginDialog" onkeypress="if(event.keyCode == 13){login()}">
+			<div class="simplecontainer" style="margin:1em">
+				<div class="container">
+					<div class="Heading row">
+						<div class="col-md-4">
+							<h1 class="text-center login-title">Cordys Chat Application</h1>
+						</div>
+					</div>
+				</div>
+			<div class="v_layout">
+				<label class="v_label" for="inputName">
+					User Name
+				</label>
+				<div class="fieldsbox">
+					<input id="inputName" class="form-control placeholder="" value="" type="text" required />
+				</div>
+			</div>
+			<div class="v_layout">
+				<label class="v_label" for="inputPassword">
+					Password
+				</label>
+				<div class="fieldsbox">
+					<input id="inputPassword" class="form-control placeholder="" value="" type="password" required />
+				</div>
+			</div>
+			<br>
+			<div class="v_layout">
+				<button id="btnLogin" type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+			</div>
+			</div>
+	</div>
+</body>
+</html>
